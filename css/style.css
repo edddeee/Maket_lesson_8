@@ -1,0 +1,67 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900@display=swap);
+
+body {
+   font-family: "Lato";
+   font-weight: 400;
+   font-style: normal;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   margin: 20px 20px 0 20px;
+}
+.text {
+   max-width: 291px;
+}
+.text p {
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.text h1 {
+   font-size: 46px;
+   font-weight: 700;
+   padding: 10px 0 0 0;
+}
+.text-block {
+   max-width: 390px;
+   margin: 40px 0 0 32px;
+}
+.text-block li {
+   line-height: 1.6;
+   margin: 0 0 12px 0;
+}
+.text-block li:last-child {
+   margin-bottom: 0;
+}
+.text-block li::before {
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   margin: 0 16px 0 -32px;
+   content: "";
+   background: url(../img/check.png) 0 0 / 16px no-repeat;
+}
+
+.bottom {
+   text-align: center;
+   padding: 10px 0;
+   max-width: 161px;
+   height: 41px;
+   margin: 48px 0 0 0;
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   color: white;
+   border-radius: 4px;
+}
+.last {
+   max-width: 100px;
+   margin: 20px 0 0 0;
+}
+.last p::after {
+   content: "";
+   display: block;
+   width: 30%;
+   height: 1px;
+   background: black;
+}
